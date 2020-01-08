@@ -49,10 +49,10 @@ li:hover{
     cursor: pointer;
 }
 .title{
-    width: auto;
-   margin-left: 140px;
-   
+   width: auto;
+   margin-left: 160px;
    color: #FFF;
+
 }
 .btn{
     background-color:#FFF;
@@ -103,7 +103,69 @@ li:hover{
     text-align: center;
     margin: auto;
 }
-
+.gnrl{
+    display: flex;
+    /* margin-top: 60px; */
+    width: 80%;
+    height: 504px;
+    background: aliceblue;
+    margin: auto;
+    position: absolute;
+    left: 10%;
+    top: -26%;
+}
+.generale{
+    position: relative;
+    width: 100%;
+}
+.c2{
+    margin-top: 80px;
+}
+.direction{
+    background-color: #688095;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+span{
+    float:right;
+}
+.exp{
+    background-color: #688095;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #C49D48;
+}
+.vide{
+    height: 250px;
+}
+#image{
+    width: 100%;
+}
+#exp1{
+    margin-left: -100px;
+}
+.gr-img{
+    display: flex;
+}
+.image-2{
+    display: flex;
+}
 
 
 /*responsive*/
@@ -144,6 +206,65 @@ label{
     display: block;
 }
 
+.gnrl{
+    display: flex;
+    /* margin-top: 60px; */
+    width: 90%;
+    height: 504px;
+    background: aliceblue;
+    margin: 60px auto;
+    position: absolute;
+    left: 5%;
+    top: -26%;
+}
+.generale{
+    position: relative;
+    width: 100%;
+    
+}
+.c2{
+    margin-top: 80px;
+}
+.direction{
+    background-color: #688095;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+span{
+    float:right;
+}
+.exp{
+    background-color: #688095;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #C49D48;
+}
+
+#image{
+    width: 100%;
+}
+#exp1{
+    margin-left: -100px;
+}
+.vide{
+    height: 20%;
+}
 }
 @media screen and (max-width:780px){
     .table_menu
@@ -152,6 +273,36 @@ label{
         text-align: center;
         margin: auto;
     }
+    .img1{
+
+        width: 100%;
+    
+    }
+    .direction{
+        background-color: #688095;
+        border: none;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        
+    }
+    .gnrl{
+        display: flex;
+        /* margin-top: 60px; */
+        width: 90%;
+        height: 504px;
+        background: aliceblue;
+        margin: 60px auto;
+        position: static;
+        
+    }
+
+
 
 
 }
