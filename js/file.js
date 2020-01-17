@@ -2,22 +2,27 @@
                     var nom = document.getElementById("boitname").value;
                     var email = document.getElementById("boiteml").value;
                     var msg= document.getElementById("boitmsg").value;
-                    if(validname(nom) && validEmail(email) && validMesage(msg)){
-
-                      alert('La forme bien valide');
-
+                    if(nom == "" || email == "" || msg == ""){
+                      alert("vous devez remplir tous les champs possible");
                     }else{
-                      if(!validname(nom)){
-                        alert('Le nom nest pas valide');
-                      }else if(!validEmail(email)){
-                        alert('email nest pas valide');
-                      }else if(!validMesage(msg)){
-                        alert('le message  nest pas valide');
-                      }
-                   
-                   
+                      if(validname(nom) && validEmail(email) && validMesage(msg)){
 
-                   }
+                        alert('La forme bien valide');
+  
+                      }else{
+                        if(!validname(nom)){
+                          alert('Le nom nest pas valide');
+                        }else if(!validEmail(email)){
+                          alert('email nest pas valide');
+                        }else if(!validMesage(msg)){
+                          alert('le message  nest pas valide');
+                        }
+                     
+                     
+  
+                     }
+                    }
+                   
                   }
  
               function validname(nom){
