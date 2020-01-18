@@ -3,7 +3,7 @@
                     var email = document.getElementById("boiteml").value;
                     var msg= document.getElementById("boitmsg").value;
                     if(nom == "" || email == "" || msg == ""){
-                      alert("vous devez remplir tous les champs possible");
+                      alert("tu doit remplir tous les champs possible");
                     }else{
                       if(validname(nom) && validEmail(email) && validMesage(msg)){
 
@@ -22,11 +22,11 @@
   
                      }
                     }
+   
+                    }
                    
-                  }
- 
               function validname(nom){
-                var letters =/^[A-Za-z]+$/;
+                var letters =/^[A-Za-z ]+$/;
                 
 
                 if(letters.test(nom)==true){
@@ -35,6 +35,19 @@
                else{
                     return false;  
                    }
+                }
+                function valideinput(){
+                  var text = document.getElementById("inp").value;
+                  if(text == ""){
+                    alert("tu doit remplir le champs");
+                  }else{
+                    if(validname(text)){
+                      alert("message bien envoyer");
+                    }else{
+                      alert("message n'est pas valide ");
+                    }
+                  }
+                
                 } 
                 
                 function validEmail(email){
@@ -62,3 +75,5 @@
                       return false;
                    }
              }
+
+             

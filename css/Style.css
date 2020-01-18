@@ -21,13 +21,16 @@ header{
 }
 ul{
     list-style-type: none;
-    display: flex;
 }
 li{
     display: inline-block;
     padding: 10px;
     color: #fff;
     font-family: 'Open Sans';
+}
+a{
+    text-decoration: none;
+    color: #FFF;
 }
 label{
     color: #EFD6AC;
@@ -93,14 +96,6 @@ li:hover{
     text-align: center;
    color: #FFF;
 }
-.table_menu td:hover
-{
-    height: 50px;
-    text-align: center;
-   color: #000;
-   background-color: #FFF;
-   cursor: pointer;
-}
 .table_menu th
 {
     height: 70px;
@@ -165,7 +160,7 @@ span{
     background-color: #C49D48;
 }
 .vide{
-    height: 250px;
+    height: 340px;
 }
 #image{
     width: 100%;
@@ -402,7 +397,7 @@ input{
 
 
 /*responsive*/
-@media screen and (max-width:1200px){ 
+@media screen and (max-width:1275px){ 
 
 ul{
     display: none;
@@ -494,7 +489,7 @@ span{
 }
 
 .vide{
-    height: 10%;
+    height: 5%;
 }
 .image-2{
     display: flex;
